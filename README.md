@@ -8,13 +8,16 @@
 
 ## Help
 
->              acfy
-命令行翻译脚本 使用有道翻译API
-
-不指定语言的查询
-例 acfy i am your father
-指定语言查询
-例 acfy -l zh "你好 朋友" ja
+>              ​			acfy
+>              命令行翻译脚本 使用有道翻译API
+>
+>              不指定语言的查询
+>
+>              例 acfy i am your father
+>
+>              指定语言查询
+>
+>              例 acfy -l zh "你好 朋友" ja
 
 Options:
     -l      指定语言的查询
