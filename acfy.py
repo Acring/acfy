@@ -4,6 +4,8 @@
              acfy
 命令行翻译脚本 使用有道翻译API
 
+运行环境:python3.5 Linux/Windows
+
 不指定语言的查询
 例 acfy i am your father
 指定语言查询
@@ -88,6 +90,7 @@ def resolve_res(trans_json):
         result += "{}转{}".format(language[lan2lan[0]], language[lan2lan[1]]) + '\n'
 
     if 'query' in trans_json:  # 查询词句
+        print(trans_json['query'])
         result += trans_json['query'] + '\n'
     if 'translation' in trans_json:  # 翻译结果
         translation = "结果:" + "; ".join(trans_json['translation'])

@@ -5,6 +5,14 @@
 ## installation
 
 > git clone git@github.com:Acring/acfy.git
+>
+> cd acfy
+>
+> python3 install.py
+
+## Usage
+
+> acfy [option]  (from_lan) (to_lan)
 
 ## Help
 
@@ -36,3 +44,4 @@
 >              ru          俄语
 >              pt          葡萄牙
 >              es          西班牙
+
