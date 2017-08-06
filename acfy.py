@@ -39,12 +39,14 @@ api_docs = "http://ai.youdao.com/docs/api.s#"  # 有道翻译api和说明文档
 language = {  # 语言转换表
     "zh-CHS": "中文",
     "ja": "日文",
-    "EN": "英文",
+    "en": "英文",
     "ko": "韩语",
     "fr": "法语",
     "ru": "俄语",
     "pt": "葡萄牙",
-    "es": "西班牙文"
+    "es": "西班牙文",
+    "EN": "英文",
+    "zh": "中文“
 }
 
 
